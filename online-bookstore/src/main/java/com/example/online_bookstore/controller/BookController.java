@@ -40,18 +40,7 @@ public class BookController {
         return new ResponseEntity<>(books, HttpStatus.OK);
     }
 
-    @GetMapping("/{id}")
-    public ResponseEntity<Book> getBookById(@PathVariable Long id) {
-        logger.info("Fetching book with ID: {}", id);
-        Optional<Book> book = bookService.getBookById(id);
-        if (book.isPresent()) {
-            logger.info("Book found: {}", book.get().getTitle());
-            return new ResponseEntity<>(book.get(), HttpStatus.OK);
-        } else {
-            logger.warn("Book with ID {} not found", id);
-            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
-        }
-    }
+
 
     @PutMapping("/{id}")
     public ResponseEntity<Book> updateBook(@PathVariable Long id, @RequestBody Book book) {
