@@ -1,0 +1,6 @@
+2025-03-21 11:27:49 INFO  c.e.o.controller.BookControllerTest - Starting BookControllerTest using Java 23.0.2 with PID 13368 (started by Pavan K S in C:\Users\Pavan K S\Desktop\online-bookstore\online-bookstore)
+2025-03-21 11:27:49 INFO  c.e.o.controller.BookControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-03-21 11:27:52 INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-03-21 11:27:52 INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-03-21 11:27:52 INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms
+2025-03-21 11:27:53 INFO  c.e.o.controller.BookControllerTest - Started BookControllerTest in 4.928 seconds (process running for 7.727)
